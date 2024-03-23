@@ -391,6 +391,7 @@ export default class QuillEditor extends React.Component<
   ) => (
     <WebView
       scrollEnabled={false}
+      androidLayerType={'hardware'}
       nestedScrollEnabled={true}
       hideKeyboardAccessoryView={true}
       keyboardDisplayRequiresUserAction={false}
